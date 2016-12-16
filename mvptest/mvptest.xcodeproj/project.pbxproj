@@ -18,6 +18,8 @@
 		3307ED181DF31C5400000587 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3307ED161DF31C5400000587 /* LoginVC.m */; };
 		3307ED191DF31C5400000587 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3307ED171DF31C5400000587 /* LoginVC.xib */; };
 		3307ED1D1DF31CBF00000587 /* LoginPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3307ED1C1DF31CBF00000587 /* LoginPresenter.m */; };
+		33D823EE1E03CDFC006E31B3 /* NSObject+XWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D823EB1E03CDFC006E31B3 /* NSObject+XWAdd.m */; };
+		33D823EF1E03CDFC006E31B3 /* UIButton+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D823ED1E03CDFC006E31B3 /* UIButton+Block.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,10 @@
 		3307ED1B1DF31CBF00000587 /* LoginPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginPresenter.h; sourceTree = "<group>"; };
 		3307ED1C1DF31CBF00000587 /* LoginPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginPresenter.m; sourceTree = "<group>"; };
 		3307ED1E1DF31CD500000587 /* LoginProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginProtocol.h; sourceTree = "<group>"; };
+		33D823EA1E03CDFC006E31B3 /* NSObject+XWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+XWAdd.h"; sourceTree = "<group>"; };
+		33D823EB1E03CDFC006E31B3 /* NSObject+XWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XWAdd.m"; sourceTree = "<group>"; };
+		33D823EC1E03CDFC006E31B3 /* UIButton+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Block.h"; sourceTree = "<group>"; };
+		33D823ED1E03CDFC006E31B3 /* UIButton+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Block.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,10 @@
 		3307ECF21DF31BC200000587 /* mvptest */ = {
 			isa = PBXGroup;
 			children = (
+				33D823EA1E03CDFC006E31B3 /* NSObject+XWAdd.h */,
+				33D823EB1E03CDFC006E31B3 /* NSObject+XWAdd.m */,
+				33D823EC1E03CDFC006E31B3 /* UIButton+Block.h */,
+				33D823ED1E03CDFC006E31B3 /* UIButton+Block.m */,
 				3307ED1A1DF31CA500000587 /* Presenter */,
 				3307ED0F1DF31C4800000587 /* Views */,
 				3307ED0B1DF31C3800000587 /* Model */,
@@ -208,6 +218,8 @@
 				3307ED1D1DF31CBF00000587 /* LoginPresenter.m in Sources */,
 				3307ECF81DF31BC200000587 /* AppDelegate.m in Sources */,
 				3307ED131DF31C4800000587 /* LoginView.m in Sources */,
+				33D823EF1E03CDFC006E31B3 /* UIButton+Block.m in Sources */,
+				33D823EE1E03CDFC006E31B3 /* NSObject+XWAdd.m in Sources */,
 				3307ECF51DF31BC200000587 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,6 +371,7 @@
 				3307ED091DF31BC200000587 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

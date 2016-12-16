@@ -12,6 +12,7 @@
 @interface LoginPresenter ()
 @property (nonatomic, strong) LoginModel* model;
 @property (nonatomic,weak) id<LoginProtocol> attachView;
+@property (nonatomic, assign) BOOL isLogined;
 @end
 
 @implementation LoginPresenter
@@ -29,11 +30,13 @@
     _model.account = account;
     _model.pwd = pwd;
     [_model loginStateSuccess:^{
-        [_attachView loginState:YES];
-        LoginSuccess();
+//        [_attachView loginState:YES];
+//        LoginSuccess();
+        self.isLogined = YES;
     } faile:^{
-        [_attachView loginState:NO];
-        faile();
+//        [_attachView loginState:NO];
+//        faile();
+        self.isLogined = NO;
     }];
 
 }

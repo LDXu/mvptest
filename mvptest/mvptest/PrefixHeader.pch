@@ -41,7 +41,8 @@
  iphone6Plus 6sPlus {{0, 0}, {414, 736}}  1920*1080
  Apple Watch 1.65inches(英寸) 320*640
  */
-
+#import "NSObject+XWAdd.h"
+#import "UIButton+Block.h"
 #define SCREEN_WIDTH ([UIScreen mainScreen].bounds.size.width)
 #define SCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)
 #define kTabBarH        49.0f

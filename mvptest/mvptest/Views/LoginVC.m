@@ -25,6 +25,15 @@
     
     [self initLoginModel];
     [self initLoginView];
+    
+    [self.loginPresenter xw_addObserverBlockForKeyPath:@"isLogined" block:^(id  _Nonnull obj, id  _Nonnull oldVal, id  _Nonnull newVal) {
+        NSLog(@"111%@",newVal);
+        if ([newVal boolValue]) {
+            NSLog(@"%@",@"11111111");
+        }else{
+            NSLog(@"%@",@"2222222");
+        }
+    }];
 
 }
 
